@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey"
+    android:backgroundTint="@color/grey">
+
+    <TextView
+        android:id="@+id/Tela2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Você está na tela 2 :)"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/purple_500"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnTela1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Tela2"
+        android:layout_marginTop="610dp"
+        android:gravity="center"
+        android:text="Ir para a tela inicial :)"
+        android:textColor="@color/grey"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>
